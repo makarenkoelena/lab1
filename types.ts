@@ -32,4 +32,15 @@ console.log("Enum: Name of c is " + Color[c]);
 let notSure: any = 4;
 notSure = "maybe i'm a string";
 console.log("Value is a string: " + notSure);
+notSure = false;
+console.log("I am a boolean: ", notSure);
 
+//any array
+let anyArrayList: any[] = [1, true, "false"];
+for (let i =0; i< anyArrayList.length; i++ )
+console.log("Before: entry: ", (i+1), " is ",  [i]);
+
+anyArrayList[1] = 100;
+for (let i = 0; i< anyArrayList.length; i++){
+    console.log("After: Entry ", (i+1), " is ", anyArrayList);
+}
