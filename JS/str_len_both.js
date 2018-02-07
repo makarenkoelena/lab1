@@ -1,3 +1,4 @@
+"use strict";
 function str_len_both(value, spaces) {
     if (spaces === void 0) { spaces = false; }
     var num;
